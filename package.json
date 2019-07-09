@@ -17,6 +17,8 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.25",
     "core-js": "^2.6.9",
+    "eos-transit-scatter-provider": "^3.2.2",
+    "eosjs": "^20.0.0-beta3",
     "vue": "^2.6.6",
     "vue-analytics": "^5.17.0",
     "vue-class-component": "^6.0.0",
