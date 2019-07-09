@@ -10,12 +10,12 @@
     <h3>Language Switcher</h3>
     <ul>
       <li>
-        <b-button @click="setLanguage('en')" :pressed="getLanguage === 'en'">
+        <b-button @click="language = 'en'" :pressed="language === 'en'">
           English
         </b-button>
       </li>
       <li>
-        <b-btn @click="setLanguage('de')" :pressed="getLanguage === 'de'">
+        <b-btn @click="language = 'de'" :pressed="language === 'de'">
           Deutsch
         </b-btn>
       </li>
@@ -77,11 +77,11 @@ import { vxm } from '@/store/'
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string
 
-  get getLanguage() {
+  get language() {
     return vxm.core.language
   }
 
-  setLanguage(lang: string) {
+  set language(lang: string) {
     vxm.core.setLanguage(lang)
   }
 }
