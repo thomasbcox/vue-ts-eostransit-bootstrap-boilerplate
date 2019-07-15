@@ -1,5 +1,7 @@
 # vue-ts-2019-boilerplate
 
+Purpose: a Vue Project Boilerplate with EOS Transit Authentication out of the box written in TypeScript. Build to get new projects up and running quickly.
+
 ## Project setup
 ```
 npm install
